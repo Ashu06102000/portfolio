@@ -1,0 +1,42 @@
+/* .link-animation {
+                cursor: pointer;
+                display: inline-flex;
+                font-size: 16px;
+                line-height: 1.2;
+                padding-bottom: 7px;
+                font-weight: 400;
+                letter-spacing: -.05em;
+                text-decoration: none;
+                color: var(--lead-800);
+                position: relative;
+                overflow: hidden;
+                background: 0 0;
+                padding: 4px 0;
+                width: fit-content
+            }
+
+            .link-animation:before {
+                content: "";
+                width: 100%;
+                position: absolute;
+                height: 2px;
+                bottom: 0;
+                right: 0;
+                background-color: #000;
+                transition: .3s
+            }
+
+            .link-animation a {
+                text-decoration: none!important
+            }
+
+            .link-animation a:hover,.link-animation:hover {
+                background: 0 0;
+                color: var(--lead-800);
+                text-decoration: none
+            }
+
+            .link-animation:hover:before {
+                animation-name: linkAnimation;
+                animation-duration: 1s
+            } */

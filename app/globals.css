@@ -25,3 +25,62 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.link-animation {
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 16px;
+  line-height: 1.2;
+  padding-bottom: 7px;
+  font-weight: 400;
+  letter-spacing: -.05em;
+  text-decoration: none;
+  color: var(--lead-800);
+  position: relative;
+  overflow: hidden;
+  background: 0 0;
+  padding: 4px 0;
+  width: fit-content
+}
+
+.link-animation:before {
+  content: "";
+  width: 100%;
+  position: absolute;
+  height: 2px;
+  bottom: 0;
+  right: 0;
+  background-color: white;
+  transition: .3s
+}
+
+.link-animation {
+  text-decoration: none!important
+}
+
+.link-animation:hover {
+  background: 0 0;
+  color: white;
+  text-decoration: none
+}
+
+.link-animation:hover:before {
+  animation-name: linkAnimation;
+  animation-duration: 1s
+}
+@keyframes linkAnimation {
+  0% {
+      width: 100%
+  }
+
+  30% {
+      width: 0%;
+      right: 0
+  }
+
+  100% {
+      width: 100%;
+      left: 0;
+      right: inherit
+  }
+}
