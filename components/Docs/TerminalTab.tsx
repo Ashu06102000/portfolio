@@ -32,8 +32,8 @@ export const TerminalTab = () => {
     }
   ]
   return (
-    <div className="flex flex-col gap-10">
-      <h4 className="text-4xl font-semibold">{DocsConstants.TERMINAL}</h4>
+    <div className="flex flex-col md:gap-10 gap-6">
+      <h4 className="md:text-4xl text-2xl  font-semibold">{DocsConstants.TERMINAL}</h4>
       <div className="flex flex-col gap-4">
         <span>{DocsConstants.TERMINAL_COMMANDS}</span>
         <div className="flex flex-col gap-2">

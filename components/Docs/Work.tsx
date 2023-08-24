@@ -2,9 +2,9 @@ import { DocsConstants } from "@/constants/common-constants";
 
 export const WorkTab = () => {
   return (
-    <div className="flex flex-col gap-10">
-      <h4 className="text-4xl font-semibold">{DocsConstants.WORK}</h4>
-      <div className="flex gap-24">
+    <div className="flex flex-col md:gap-10 gap-6">
+      <h4 className="md:text-4xl text-2xl  font-semibold">{DocsConstants.WORK}</h4>
+      <div className="flex flex-col md:flex-row md:gap-24 gap-2">
         <span className="text-sm whitespace-pre text-gray-400">APRIL 2022 - PRESENT</span>
         <div className="flex flex-col">
           <span>

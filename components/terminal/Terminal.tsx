@@ -80,7 +80,6 @@ const Terminal = () => {
       }
     }
   };
-  console.log(data, "data");
   return (
     <div className="flex flex-col md:flex-row gap-12 justify-between">
       <TerminalContainerDocs />

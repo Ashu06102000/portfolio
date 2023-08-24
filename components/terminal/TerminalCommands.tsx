@@ -1,5 +1,5 @@
 export const TerminalCommands = {
-  list: ["> about", "> help", "> version", "> skills", "> hobbies"],
+  list: ["> about", "> help", "> version","> work", "> skills", "> hobbies"],
   version: ["> Software Developer", "> Gamer", "> Electrical Engineer"],
   about: [
     "👨‍💻 Hi, I am Yash, a passionate software developer with a knack for turning complex code into elegant solutions. With a degree in electrical engineering, I bring a unique blend of technical skills and creative problem-solving to the world of software development.🕹️ When I am not immersed in lines of code, you will often find me exploring virtual worlds and mastering various gaming realms. Gaming isn it just a pastime for me; it is a way to unwind, learn strategy, and connect with friends online.",
