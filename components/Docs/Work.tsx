@@ -8,7 +8,7 @@ export const WorkTab = () => {
         <span className="text-sm whitespace-pre text-gray-400">APRIL 2022 - PRESENT</span>
         <div className="flex flex-col">
           <span>
-            Software Developer -{" "}
+            Software Developer -
             <a target="_blank" href="https://www.copods.co/">
               copods
             </a>
