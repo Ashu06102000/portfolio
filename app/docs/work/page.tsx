@@ -1,4 +1,4 @@
-import { WorkTab } from "@/components/Docs/Work";
+import { WorkTab } from "@/components/Docs";
 
 const Work = () => {
   return (

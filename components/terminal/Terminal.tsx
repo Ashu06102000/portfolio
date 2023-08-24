@@ -3,7 +3,12 @@
 import React, { useEffect, useRef, useState } from "react";
 import { terminal } from "../../constants/common-constants";
 import { TerminalCommands } from "./TerminalCommands";
-import { TerminalContainerDocs, TerminalHeader, TerminalPlayground, TerminalPromptForm } from ".";
+import {
+  TerminalContainerDocs,
+  TerminalHeader,
+  TerminalPlayground,
+  TerminalPromptForm,
+} from ".";
 
 const Terminal = () => {
   const [inputValue, setInputValue] = useState("");
@@ -41,30 +46,34 @@ const Terminal = () => {
   }, [outputText, inputValue]);
   const executeCommand = (command: string) => {
     if (command) {
-      if (command === "--list") {
+      if (command === "list") {
         setOutputText([]);
         setData([]);
         return setData(TerminalCommands["list"]);
-      } else if (command === "--version") {
+      } else if (command === "version") {
         setOutputText([]);
         setData([]);
         return setData(TerminalCommands.version);
-      } else if (command === "--about") {
+      } else if (command === "-bout") {
         setOutputText([]);
         setData([]);
         return setData(TerminalCommands.about);
-      } else if (command === "--help") {
+      } else if (command === "help") {
         setOutputText([]);
         setData([]);
         return setData(TerminalCommands.help);
-      } else if (command === "--hobbies") {
+      } else if (command === "hobbies") {
         setOutputText([]);
         setData([]);
         return setData(TerminalCommands.hobbies);
-      } else if (command === "--skills") {
+      } else if (command === "skills") {
         setOutputText([]);
         setData([]);
         return setData(TerminalCommands.skills);
+      } else if (command === "work") {
+        setOutputText([]);
+        setData([]);
+        return setData(TerminalCommands.work);
       } else {
         setData([]);
         return terminal.TERMINAL_COMMAND_NOT_FOUND;
@@ -74,7 +83,7 @@ const Terminal = () => {
   console.log(data, "data");
   return (
     <div className="flex flex-col md:flex-row gap-12 justify-between">
-      <TerminalContainerDocs/>
+      <TerminalContainerDocs />
       <div className="bg-[#252525] md:rounded-3xl rounded-lg md:w-600 md:min-h-400">
         <TerminalHeader />
         <div className="md:px-7 p-4 md:py-5 flex flex-col gap-2">

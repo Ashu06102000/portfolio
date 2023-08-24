@@ -1,7 +1,9 @@
+import { ProjectTab } from "@/components/Docs";
+
 const Projects = () => {
     return (
       <div>
-        <div>skills</div>
+        <div><ProjectTab/></div>
       </div>
     );
   };
