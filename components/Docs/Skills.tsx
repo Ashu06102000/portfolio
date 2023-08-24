@@ -4,15 +4,23 @@ export const SkillsTab = () => {
   const languages = ["JavaScript", "TypeScript", "HTML", "CSS"];
   const framework = ["React.js", "Remix.js", "Next.js", "Meteor.js"];
   const website = ["Webflow", "WordPress"];
-  const databse = [
-    "Prisma",
-    "MongoDB",
-    "Supabase",
+  const database = ["Prisma", "MongoDB", "Supabase"];
+  const testing = ["Cypress"];
+  const state_management = ["Zustand"];
+  const ui_libraries = [
+    "Material UI",
+    "Framer Motion",
+    "Ant Design",
+    "Iconify",
   ];
-  const testing = [
-    "Cypress",
-    // "Tailwind CSS",
-    // "Docker"
+  const cloud = ["AWS"];
+  const miscellaneous = [
+    "Tailwind CSS",
+    "Docker",
+    "Git",
+    "Github",
+    "Vercel",
+    "Sendgrid",
   ];
   return (
     <div className="flex flex-col gap-10">
@@ -28,7 +36,7 @@ export const SkillsTab = () => {
             <span>{DocsConstants.LANGUAGES} -</span>
             {languages.map((ln) => {
               return (
-                <span className="text-gray-400 px-2" key={ln}>
+                <span className="text-gray-400 px" key={ln}>
                   {ln}
                 </span>
               );
@@ -38,7 +46,7 @@ export const SkillsTab = () => {
             <span>{DocsConstants.FRAMEWORKS} -</span>
             {framework.map((framework) => {
               return (
-                <span className="text-gray-400 px-2" key={framework}>
+                <span className="text-gray-400 px" key={framework}>
                   {framework}
                 </span>
               );
@@ -48,18 +56,18 @@ export const SkillsTab = () => {
             <span>{DocsConstants.WEBSITE_BUILDING_TOOLS} -</span>
             {website.map((website) => {
               return (
-                <span className="text-gray-400 px-2" key={website}>
+                <span className="text-gray-400 px" key={website}>
                   {website}
                 </span>
               );
             })}
           </div>
           <div className="flex gap-2">
-            <span>{DocsConstants.DATABSE_ORM} -</span>
-            {databse.map((databse) => {
+            <span>{DocsConstants.DATABASE_ORM} -</span>
+            {database.map((database) => {
               return (
-                <span className="text-gray-400 px-2" key={databse}>
-                  {databse}
+                <span className="text-gray-400 px" key={database}>
+                  {database} ,
                 </span>
               );
             })}
@@ -68,8 +76,48 @@ export const SkillsTab = () => {
             <span>{DocsConstants.TESTING} -</span>
             {testing.map((testing) => {
               return (
-                <span className="text-gray-400 px-2" key={testing}>
+                <span className="text-gray-400 px" key={testing}>
                   {testing}
+                </span>
+              );
+            })}
+          </div>
+          <div className="flex gap-2">
+            <span>{DocsConstants.STATE_MANAGEMENT} -</span>
+            {state_management.map((sm) => {
+              return (
+                <span className="text-gray-400 px" key={sm}>
+                  {sm}
+                </span>
+              );
+            })}
+          </div>
+          <div className="flex gap-2">
+            <span>{DocsConstants.UI_LIBRARIES} -</span>
+            {ui_libraries.map((ul) => {
+              return (
+                <span className="text-gray-400 px" key={ul}>
+                  {ul}
+                </span>
+              );
+            })}
+          </div>
+          <div className="flex gap-2">
+            <span>{DocsConstants.CLOUD} -</span>
+            {cloud.map((cloud) => {
+              return (
+                <span className="text-gray-400 px" key={cloud}>
+                  {cloud}
+                </span>
+              );
+            })}
+          </div>
+          <div className="flex gap-2">
+            <span>{DocsConstants.MISCELLANEOUS} -</span>
+            {miscellaneous.map((miscellaneous) => {
+              return (
+                <span className="text-gray-400 px" key={miscellaneous}>
+                  {miscellaneous}
                 </span>
               );
             })}

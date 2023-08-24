@@ -21,6 +21,10 @@ export const DocsConstants = {
     LANGUAGES:`Languages`,
     FRAMEWORKS:'Frameworks',
     WEBSITE_BUILDING_TOOLS:'Website Building Tools',
-    DATABSE_ORM:'Database and ORM',
-    TESTING:'Testing'
+    DATABASE_ORM:'Database and ORM',
+    TESTING:'Testing',
+    UI_LIBRARIES:'UI Libraries',
+    CLOUD:'Cloud Services',
+    MISCELLANEOUS:'miscellaneous',
+    STATE_MANAGEMENT:'state management'
 }

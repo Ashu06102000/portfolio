@@ -11,21 +11,25 @@ export const DocsSideNav = () => {
       route: "/docs",
     },
     {
-        name: "Skills",
-        route: "/docs/skills",
+      name: "Skills",
+      route: "/docs/skills",
     },
     {
-        name: "Projects",
-        route: "/docs/projects",
+      name: "Work",
+      route: "/docs/work",
     },
     {
-        name: "Blogs",
-        route: "/docs/blogs",
+      name: "Projects",
+      route: "/docs/projects",
     },
     {
-        name: "Terminal",
-        route: "/docs/terminal",
-    }
+      name: "Blogs",
+      route: "/docs/blogs",
+    },
+    {
+      name: "Terminal",
+      route: "/docs/terminal",
+    },
   ];
   return (
     <div className="flex flex-col gap-4">
