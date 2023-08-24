@@ -8,7 +8,19 @@ export const Nav = {
     LOGO_TEXT : 'ashu.dev'
 }
 export const DocsConstants = {
-    GET_STARTED:'GET STARTED',
+    GET_STARTED:'GO TO DOCS',
     DOCS_TEXT: 'Documentation',
-    BACK_TEXT: 'Back'
+    BACK_TEXT: 'Back',
+    INTRODUCTION:'Introduction',
+    WORK:'Work',
+    GAMING:'Gaming',
+    EDUCATION:'Education',
+    GLITTER:'Glitter',
+    SHUTTLE:'Shuttle',
+    SKILLS:'Skills',
+    LANGUAGES:`Languages`,
+    FRAMEWORKS:'Frameworks',
+    WEBSITE_BUILDING_TOOLS:'Website Building Tools',
+    DATABSE_ORM:'Database and ORM',
+    TESTING:'Testing'
 }

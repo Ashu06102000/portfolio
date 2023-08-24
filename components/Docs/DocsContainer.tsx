@@ -1,11 +1,9 @@
-import { DocsHeader } from ".";
-import { DocsContentContainer } from "./DocsContentContainer";
+import { DocsSideNav } from "./DocsSideNav";
 
 export const DocsContainer = () => {
   return (
-    <div>
-      <DocsHeader />
-      <DocsContentContainer />
+    <div className="md:py-32">
+      <DocsSideNav />
     </div>
   );
 };

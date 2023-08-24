@@ -75,7 +75,7 @@ const Terminal = () => {
   return (
     <div className="flex flex-col md:flex-row gap-12 justify-between">
       <TerminalContainerDocs/>
-      <div className="bg-[#252525] md:rounded-3xl rounded-lg md:w-600 w-80 md:min-h-400">
+      <div className="bg-[#252525] md:rounded-3xl rounded-lg md:w-600 md:min-h-400">
         <TerminalHeader />
         <div className="md:px-7 p-4 md:py-5 flex flex-col gap-2">
           <TerminalPlayground

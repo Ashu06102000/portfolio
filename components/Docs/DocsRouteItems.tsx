@@ -8,7 +8,7 @@ export const DocsRoutesItems = ({ route }: { route: routesItems }) => {
   return (
     <div>
       <Link
-        className={`text-gray-400 hover:white ${
+        className={`hover:red ${
           pathname === route.route ? "white" : "text-gray-400"
         }`}
         href={route.route}

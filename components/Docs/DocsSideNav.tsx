@@ -12,19 +12,19 @@ export const DocsSideNav = () => {
     },
     {
         name: "Skills",
-        route: "/skills",
+        route: "/docs/skills",
     },
     {
         name: "Projects",
-        route: "/projects",
+        route: "/docs/projects",
     },
     {
         name: "Blogs",
-        route: "/blogs",
+        route: "/docs/blogs",
     },
     {
         name: "Terminal",
-        route: "/terminal",
+        route: "/docs/terminal",
     }
   ];
   return (

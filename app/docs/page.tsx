@@ -1,8 +1,8 @@
-import { DocsContainer } from "@/components/Docs"
+import { Introduction } from "@/components/Docs"
 
  const Documentation =()=>{
     return(
-        <div><DocsContainer/></div>
+        <div><Introduction/></div>
     )
 }
 export default Documentation
