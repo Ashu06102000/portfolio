@@ -21,6 +21,7 @@ export const SkillsTab = () => {
     "Github",
     "Vercel",
     "Sendgrid",
+    "Accessibility"
   ];
   return (
     <div className="flex flex-col gap-10">
@@ -36,7 +37,7 @@ export const SkillsTab = () => {
             <span>{DocsConstants.LANGUAGES} -</span>
             {languages.map((ln) => {
               return (
-                <span className="text-gray-400 px" key={ln}>
+                <span className="text-gray-400 px-1.5" key={ln}>
                   {ln}
                 </span>
               );
@@ -46,7 +47,7 @@ export const SkillsTab = () => {
             <span>{DocsConstants.FRAMEWORKS} -</span>
             {framework.map((framework) => {
               return (
-                <span className="text-gray-400 px" key={framework}>
+                <span className="text-gray-400 px-1.5" key={framework}>
                   {framework}
                 </span>
               );
@@ -56,7 +57,7 @@ export const SkillsTab = () => {
             <span>{DocsConstants.WEBSITE_BUILDING_TOOLS} -</span>
             {website.map((website) => {
               return (
-                <span className="text-gray-400 px" key={website}>
+                <span className="text-gray-400 px-1.5" key={website}>
                   {website}
                 </span>
               );
@@ -66,8 +67,8 @@ export const SkillsTab = () => {
             <span>{DocsConstants.DATABASE_ORM} -</span>
             {database.map((database) => {
               return (
-                <span className="text-gray-400 px" key={database}>
-                  {database} ,
+                <span className="text-gray-400 px-1.5" key={database}>
+                  {database} 
                 </span>
               );
             })}
@@ -76,7 +77,7 @@ export const SkillsTab = () => {
             <span>{DocsConstants.TESTING} -</span>
             {testing.map((testing) => {
               return (
-                <span className="text-gray-400 px" key={testing}>
+                <span className="text-gray-400 px-1.5" key={testing}>
                   {testing}
                 </span>
               );
@@ -86,7 +87,7 @@ export const SkillsTab = () => {
             <span>{DocsConstants.STATE_MANAGEMENT} -</span>
             {state_management.map((sm) => {
               return (
-                <span className="text-gray-400 px" key={sm}>
+                <span className="text-gray-400 px-1.5" key={sm}>
                   {sm}
                 </span>
               );
@@ -96,7 +97,7 @@ export const SkillsTab = () => {
             <span>{DocsConstants.UI_LIBRARIES} -</span>
             {ui_libraries.map((ul) => {
               return (
-                <span className="text-gray-400 px" key={ul}>
+                <span className="text-gray-400 px-1.5" key={ul}>
                   {ul}
                 </span>
               );
@@ -106,7 +107,7 @@ export const SkillsTab = () => {
             <span>{DocsConstants.CLOUD} -</span>
             {cloud.map((cloud) => {
               return (
-                <span className="text-gray-400 px" key={cloud}>
+                <span className="text-gray-400 px-1.5" key={cloud}>
                   {cloud}
                 </span>
               );
@@ -116,7 +117,7 @@ export const SkillsTab = () => {
             <span>{DocsConstants.MISCELLANEOUS} -</span>
             {miscellaneous.map((miscellaneous) => {
               return (
-                <span className="text-gray-400 px" key={miscellaneous}>
+                <span className="text-gray-400 px-1.5" key={miscellaneous}>
                   {miscellaneous}
                 </span>
               );
