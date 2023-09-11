@@ -114,7 +114,7 @@ export const SkillsTab = () => {
             })}
           </div>
           <div className="flex md:flex-row flex-col gap-2">
-            <span>{DocsConstants.MISCELLANEOUS} -</span>
+            <span>{DocsConstants.MISCELLANEOUS}-</span>
             {miscellaneous.map((miscellaneous) => {
               return (
                 <span className="text-gray-400 md:px-1.5" key={miscellaneous}>
