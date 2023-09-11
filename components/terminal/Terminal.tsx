@@ -54,7 +54,7 @@ const Terminal = () => {
         setOutputText([]);
         setData([]);
         return setData(TerminalCommands.version);
-      } else if (command === "-bout") {
+      } else if (command === "about") {
         setOutputText([]);
         setData([]);
         return setData(TerminalCommands.about);
